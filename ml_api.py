@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model
-model = joblib.load("models/best_car_price_model.pkl")
+model = joblib.load("modelsBAckup/best_car_price_model.pkl")
 
 # Mappings
 map_fuel = {'Petrol': 0, 'Diesel': 1, 'CNG': 2}
